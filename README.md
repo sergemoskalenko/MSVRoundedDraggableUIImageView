@@ -22,7 +22,7 @@ pod "MSVRoundedDraggableUIImageView"
 
 ## Author
 
-sergemoskalenko, sergiy.v.moskalenko@gmail.com
+sergemoskalenko, skype:camopu-ympo, http://camopu.rhorse.ru/ios
 
 ## License
 
