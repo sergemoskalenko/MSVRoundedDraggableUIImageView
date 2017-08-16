@@ -6,8 +6,9 @@
 [![Platform](https://img.shields.io/cocoapods/p/MSVRoundedDraggableUIImageView.svg?style=flat)](http://cocoapods.org/pods/MSVRoundedDraggableUIImageView)
 
 
+Online Web Demo: https://goo.gl/pHHKSv
 
-<img src="https://github.com/sergemoskalenko/MSVRoundedDraggableUIImageView/blob/master/MSVRoundedDraggableUIImageView-01.png" alt="Screen" width="400"/>
+[<img src="https://github.com/sergemoskalenko/MSVRoundedDraggableUIImageView/blob/master/MSVRoundedDraggableUIImageView-01.png" alt="Screen" width="400"/>](https://goo.gl/pHHKSv)
 
 
 
