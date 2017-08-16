@@ -1,0 +1,6 @@
+framework module Pods_MSVRoundedDraggableUIImageView_Example {
+  umbrella header "Pods-MSVRoundedDraggableUIImageView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

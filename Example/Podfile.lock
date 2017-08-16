@@ -1,0 +1,16 @@
+PODS:
+  - MSVRoundedDraggableUIImageView (0.1.0)
+
+DEPENDENCIES:
+  - MSVRoundedDraggableUIImageView (from `../`)
+
+EXTERNAL SOURCES:
+  MSVRoundedDraggableUIImageView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MSVRoundedDraggableUIImageView: 0e39a8b982fbc4c9cee5e6bfe35cf55fe9b3d7e3
+
+PODFILE CHECKSUM: a323d3d843c87f6f745e4112a4c9cc891d0b42f9
+
+COCOAPODS: 1.2.0

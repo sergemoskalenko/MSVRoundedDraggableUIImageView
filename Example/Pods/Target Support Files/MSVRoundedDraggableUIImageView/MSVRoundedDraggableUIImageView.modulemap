@@ -1,0 +1,6 @@
+framework module MSVRoundedDraggableUIImageView {
+  umbrella header "MSVRoundedDraggableUIImageView-umbrella.h"
+
+  export *
+  module * { export * }
+}
