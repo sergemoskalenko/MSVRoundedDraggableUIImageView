@@ -25,7 +25,6 @@ IB_DESIGNABLE
 @property (nonatomic, weak) id <MSVDraggableImageViewProtocol> delegate;
 @property (nonatomic, assign) CGFloat maxShiftX;
 @property (nonatomic, assign) CGFloat maxShiftY;
-@property (nonatomic, weak) UIView *haloView;
 @property (nonatomic, assign) BOOL isMovedToStartPoint;
 
 - (void)pinStartPoint;
