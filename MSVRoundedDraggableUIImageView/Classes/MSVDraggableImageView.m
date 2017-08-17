@@ -118,7 +118,7 @@
 }
 
 - (void)moveToStartPoint {
-    if (!_isMovedToStartPoint)
+    if (!_isMovedToStartPoint || (_pinFrame.size.width < 0.001 && _pinFrame.size.height < 0.001))
         return;
     
     self.userInteractionEnabled = NO;
