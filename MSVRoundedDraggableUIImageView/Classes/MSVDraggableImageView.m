@@ -122,6 +122,10 @@
         return;
     
     self.userInteractionEnabled = NO;
+
+    if ([_delegate respondsToSelector:@selector(draggableImageView:willMovedToStartPoint:)]) {
+        [_delegate draggableImageView:self willMovedToStartPoint:self.pinFrame.origin];
+    }
     
     [UIView animateWithDuration:0.25 animations:^{
         self.frame = _pinFrame;
