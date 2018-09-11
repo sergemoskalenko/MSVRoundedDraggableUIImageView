@@ -127,12 +127,15 @@
         [_delegate draggableImageView:self willMovedToStartPoint:self.pinFrame.origin];
     }
     
+    __weak typeof(self) weakSelf = self;
     [UIView animateWithDuration:0.25 animations:^{
-        self.frame = _pinFrame;
+        __strong typeof(self) strongSelf = weakSelf;
+        strongSelf.frame = _pinFrame;
     } completion:^(BOOL finished) {
-        self.userInteractionEnabled = YES;
+        __strong typeof(self) strongSelf = weakSelf;
+        strongSelf.userInteractionEnabled = YES;
         if ([_delegate respondsToSelector:@selector(draggableImageView:didMovedToStartPoint:)]) {
-            [_delegate draggableImageView:self didMovedToStartPoint:self.frame.origin];
+            [_delegate draggableImageView:strongSelf didMovedToStartPoint:strongSelf.frame.origin];
         }
     }];
 }
