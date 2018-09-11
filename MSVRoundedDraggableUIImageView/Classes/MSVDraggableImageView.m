@@ -129,13 +129,11 @@
     
     __weak typeof(self) weakSelf = self;
     [UIView animateWithDuration:0.25 animations:^{
-        __strong typeof(self) strongSelf = weakSelf;
-        strongSelf.frame = _pinFrame;
+        weakSelf.frame = _pinFrame;
     } completion:^(BOOL finished) {
-        __strong typeof(self) strongSelf = weakSelf;
-        strongSelf.userInteractionEnabled = YES;
+        weakSelf.userInteractionEnabled = YES;
         if ([_delegate respondsToSelector:@selector(draggableImageView:didMovedToStartPoint:)]) {
-            [_delegate draggableImageView:strongSelf didMovedToStartPoint:strongSelf.frame.origin];
+            [_delegate draggableImageView:weakSelf didMovedToStartPoint:weakSelf.frame.origin];
         }
     }];
 }
